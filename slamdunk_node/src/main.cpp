@@ -1166,6 +1166,7 @@ namespace
         {
             // issue with ROS: finish periodic cb
             m_kalamosContext->setPeriodicCallback(0, nullptr);
+            exit(0);
         }
 
         publishStaticTfs();
